@@ -31,6 +31,6 @@ public class SecondActivity extends AppCompatActivity {
         mealPrice.setText(String.valueOf(newMeal.price));
         mealCalories.setText(String.valueOf(newMeal.calories));
 
-        startActivity(intent);
+
     }
 }

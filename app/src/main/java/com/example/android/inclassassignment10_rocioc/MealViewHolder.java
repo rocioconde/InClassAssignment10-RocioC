@@ -44,11 +44,8 @@ public class MealViewHolder extends RecyclerView.ViewHolder {
 
                 Intent intent = new Intent(context, SecondActivity.class);
                 intent.putExtra(Keys.MEALS, meal);
-
                 context.startActivity(intent);
 
-
-//                Toast.makeText(context, mealDescriptionView.getText(), Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -13,7 +13,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginRight="16dp"
-
         />
 
     <TextView
@@ -23,8 +22,6 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/meal_photo"
         android:textSize="20sp"
-
-
         />
 
     <TextView
@@ -33,7 +30,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/meal_description"
         android:layout_toRightOf="@+id/meal_photo"
-
         />
 
     <TextView
